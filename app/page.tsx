@@ -1,7 +1,6 @@
 import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
 import HowWeWork from "@/components/how-we-work"
-import SeoLocal from "@/components/seo-local"
 import Services from "@/components/services"
 import Testimonials from "@/components/testimonials"
 import Contact from "@/components/contact"
@@ -23,7 +22,6 @@ export default function Home() {
       <main>
         <Hero />
         <HowWeWork />
-        <SeoLocal />
         <Services />
         <Testimonials />
         <Contact />
