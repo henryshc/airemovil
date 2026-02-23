@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     title: "Aire Móvil | Frescura Garantizada en San Pedro Sula",
     description:
       "Especialistas en A/C automotriz. Agenda tu revisión hoy por WhatsApp o llamada.",
-    images: ["https://airemovil.vercel.app/assets/fondo-taller-hero.webp"],
+    images: ["https://airemovil.vercel.app/assets/fondo-taller-hero.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Aire Móvil | Frescura Garantizada en San Pedro Sula",
     description:
       "Especialistas en A/C automotriz. Agenda tu revisión hoy por WhatsApp o llamada.",
-    images: ["https://airemovil.vercel.app/assets/fondo-taller-hero.webp"],
+    images: ["https://airemovil.vercel.app/assets/fondo-taller-hero.jpg"],
   },
   alternates: {
     canonical: "https://airemovil.vercel.app/",
@@ -55,7 +55,7 @@ export default function RootLayout({
               "@type": "AutoRepair",
               name: "Aire Móvil del Norte",
               image:
-                "https://airemovil.vercel.app/assets/fondo-taller-hero.webp",
+                "https://airemovil.vercel.app/assets/fondo-taller-hero.jpg",
               url: "https://airemovil.vercel.app/",
               telephone: "+50497801461",
               priceRange: "$$",
