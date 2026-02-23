@@ -123,7 +123,7 @@ html {
       rgba(15, 23, 42, 0.92),
       rgba(30, 58, 138, 0.7)
     ),
-    url("/assets/fondo-taller-hero.jpg");
+    url("/assets/fondo-taller-hero.webp");
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
