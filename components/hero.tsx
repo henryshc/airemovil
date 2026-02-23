@@ -49,7 +49,7 @@ export default function Hero() {
                 },
                 {
                   icon: "fa-shield-alt",
-                  title: "Garantía de mano de obra",
+                  title: "Garantía en cambio de compresores y evaporadores",
                   desc: "Respaldo real, no promesas.",
                 },
                 {
