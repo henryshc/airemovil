@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://airemovil.vercel.app/sitemap.xml
