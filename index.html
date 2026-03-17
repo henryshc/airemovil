@@ -3,184 +3,175 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aire Móvil | A/C Automotriz San Pedro Sula</title>
+  
+  <meta name="google-site-verification" content="tfIq3TWEuM-d0D0EfmfMNCag1elvAwfXCTc058YmIRs" />
+  <link rel="canonical" href="https://airemovil.vercel.app/" />
+  
+  <title>Aire Móvil | Expertos en A/C Automotriz en San Pedro Sula</title>
+  <meta name="description" content="Taller certificado en aire acondicionado automotriz en San Pedro Sula. Diagnóstico, recarga de R134a y R1234yf, reparación de fugas y soluciones completas con garantía.">
   
   <link rel="icon" type="image/png" href="assets/logo-airemovil.png">
+  <link rel="apple-touch-icon" href="assets/logo-airemovil.png">
+  <link rel="preload" as="image" href="assets/fondo-taller-hero.jpg">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
 
   <style>
-    body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
-    
+    body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #0f172a; }
     .hero-mesh {
       background-color: #020617;
-      background-image: linear-gradient(rgba(2, 6, 23, 0.8), rgba(2, 6, 23, 0.8)), url('assets/fondo-taller-hero.jpg');
-      background-size: cover;
-      background-position: center;
+      background-image: linear-gradient(rgba(2, 6, 23, 0.75), rgba(2, 6, 23, 0.85)), url('assets/fondo-taller-hero.jpg');
+      background-size: cover; background-position: center;
     }
-
-    /* Solo aplicar Fixed en pantallas grandes para evitar lag en móvil */
-    @media (min-width: 1024px) {
-      .hero-mesh { background-attachment: fixed; }
-    }
-
-    .reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); }
+    @media (min-width: 1024px) { .hero-mesh { background-attachment: fixed; } }
+    .reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
     .reveal.active { opacity: 1; transform: translateY(0); }
-
-    .glass-card {
-      background: rgba(255, 255, 255, 0.02);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
   </style>
 </head>
 
-<body class="bg-slate-50 overflow-x-hidden">
+<body>
 
-  <nav class="fixed top-0 w-full z-[100] bg-white/90 backdrop-blur-md border-b border-slate-200">
-    <div class="max-w-7xl mx-auto px-4 md:px-6 h-16 md:h-20 flex justify-between items-center">
-      <a href="#inicio" class="shrink-0">
-        <img src="assets/logo-airemovil.png" alt="Aire Móvil" class="h-8 md:h-12 w-auto">
-      </a>
+  <header>
+    <nav class="fixed top-0 w-full z-[100] bg-white/95 backdrop-blur-xl border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-6 h-16 md:h-20 flex justify-between items-center">
+        <a href="#inicio" aria-label="Volver al inicio de Aire Móvil">
+          <img src="assets/logo-airemovil.png" alt="Logo Aire Móvil" class="h-10 md:h-12 w-auto">
+        </a>
 
-      <div class="hidden lg:flex gap-8 font-bold text-slate-500 text-[10px] uppercase tracking-[0.2em]">
-        <a href="#servicios" class="hover:text-blue-600 transition-colors">Servicios</a>
-        <a href="#testimonios" class="hover:text-blue-600 transition-colors">Opiniones</a>
-        <a href="#contacto" class="hover:text-blue-600 transition-colors">Ubicación</a>
-      </div>
-
-      <a href="tel:+50497801461" class="bg-blue-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-black text-[10px] md:text-xs uppercase tracking-widest hover:bg-slate-900 transition-all shadow-lg">
-        <i class="fas fa-phone-alt mr-2"></i> LLAMAR
-      </a>
-    </div>
-  </nav>
-
-  <section id="inicio" class="hero-mesh min-h-screen flex items-center pt-16">
-    <div class="max-w-7xl mx-auto px-6 w-full py-12">
-      <div class="max-w-4xl space-y-6 md:space-y-8">
-        <div class="inline-block bg-blue-500/20 border border-blue-400/20 px-3 py-1.5 rounded-full text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]">
-          San Pedro Sula, Honduras
-        </div>
-        
-        <h1 class="text-4xl sm:text-6xl md:text-8xl font-[900] text-white leading-[1.1] tracking-tighter">
-          EL CLIMA <br> PERFECTO <span class="text-blue-400">EXISTE.</span>
-        </h1>
-        
-        <p class="text-base md:text-xl text-slate-300 max-w-xl font-light leading-relaxed">
-          Diagnóstico claro y reparación profesional con garantía de 28 años en el norte.
-        </p>
-        
-        <div class="flex flex-col sm:flex-row gap-4 pt-4">
-          <a href="https://wa.me/50497801461?text=Hola,%20quiero%20agendar%20un%20diagnóstico%20de%20A/C.%20Marca/modelo/año:%20____.%20Síntoma:%20____." 
-             class="bg-green-600 text-white px-8 py-4 rounded-2xl font-black text-sm md:text-lg flex items-center justify-center shadow-xl hover:scale-105 transition-transform">
-            <i class="fab fa-whatsapp mr-3 text-2xl"></i> AGENDAR POR WHATSAPP
-          </a>
-          <a href="#contacto" class="glass-card text-white px-8 py-4 rounded-2xl font-black text-sm md:text-lg flex items-center justify-center hover:bg-white/10">
-            UBICACIÓN
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="servicios" class="py-20 md:py-32 bg-white">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
-        <div class="reveal bg-slate-50 p-8 md:p-12 rounded-[2.5rem] border border-slate-100 transition-all hover:shadow-xl group">
-          <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center mb-6">
-            <i class="fas fa-snowflake text-xl"></i>
-          </div>
-          <h3 class="text-xl md:text-2xl font-black text-slate-900 mb-4 uppercase">Recarga & Vacío</h3>
-          <p class="text-slate-500 text-sm md:text-base mb-8">Gases R134a y R1234yf con precisión digital.</p>
-          <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20recarga%20de%20A/C%20(R134a%20o%20R1234yf)%20+%20vacío." class="font-black text-xs uppercase tracking-widest text-blue-600 border-b-2 border-blue-600">Cotizar ahora</a>
+        <div class="hidden md:flex gap-8 font-bold text-slate-700 text-xs uppercase tracking-[0.2em]">
+          <a href="#servicios" class="hover:text-blue-600 transition-colors">Servicios</a>
+          <a href="#testimonios" class="hover:text-blue-600 transition-colors">Opiniones</a>
+          <a href="#contacto" class="hover:text-blue-600 transition-colors">Ubicación</a>
         </div>
 
-        <div class="reveal delay-100 bg-slate-900 p-8 md:p-12 rounded-[2.5rem] shadow-2xl lg:-translate-y-6">
-          <div class="w-12 h-12 bg-blue-400 text-slate-900 rounded-xl flex items-center justify-center mb-6 font-black italic">!</div>
-          <h3 class="text-xl md:text-2xl font-black text-white mb-4 uppercase">Reparación Total</h3>
-          <p class="text-slate-400 text-sm md:text-base mb-8">Detección de fugas y cambio de evaporadores garantizado.</p>
-          <a href="https://wa.me/50497801461?text=Hola,%20quiero%20agendar%20diagnóstico%20de%20A/C." class="font-black text-xs uppercase tracking-widest text-blue-400 border-b-2 border-blue-400">Diagnóstico técnico</a>
-        </div>
-
-        <div class="reveal delay-200 bg-slate-50 p-8 md:p-12 rounded-[2.5rem] border border-slate-100 transition-all hover:shadow-xl">
-          <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center mb-6">
-            <i class="fas fa-box text-xl"></i>
-          </div>
-          <h3 class="text-xl md:text-2xl font-black text-slate-900 mb-4 uppercase">Compresores</h3>
-          <p class="text-slate-500 text-sm md:text-base mb-8">Venta e instalación de compresores originales.</p>
-          <a href="https://wa.me/50497801461?text=Hola,%20quiero%20consultar%20stock%20de%20compresor." class="font-black text-xs uppercase tracking-widest text-blue-600 border-b-2 border-blue-600">Consultar stock</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="testimonios" class="py-20 bg-slate-50 border-y border-slate-200">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-        <div class="text-center md:text-left">
-          <div class="text-yellow-400 text-xs mb-2"><i class="fas fa-star" v-for="i in 5"></i> ★★★★★</div>
-          <p class="text-slate-600 italic">"Diagnóstico claro y retroalimentación profesional."</p>
-          <p class="font-black text-[10px] uppercase mt-4 text-slate-400">— Fabricio Mejia</p>
-        </div>
-        <div class="text-center md:text-left">
-          <div class="text-yellow-400 text-xs mb-2">★★★★★</div>
-          <p class="text-slate-600 italic">"Sientes que tu vehículo está en manos de expertos."</p>
-          <p class="font-black text-[10px] uppercase mt-4 text-slate-400">— Claudia Alfaro</p>
-        </div>
-        <div class="text-center md:text-left">
-          <div class="text-yellow-400 text-xs mb-2">★★★★★</div>
-          <p class="text-slate-600 italic">"Excelente servicio. Muy responsables."</p>
-          <p class="font-black text-[10px] uppercase mt-4 text-slate-400">— Leonel Molina</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contacto" class="py-20 bg-slate-950 text-white">
-    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
-      <div class="space-y-8">
-        <h2 class="text-4xl font-black uppercase">Ubícanos</h2>
-        <div class="space-y-4 text-slate-400">
-          <p class="flex items-center gap-3"><i class="fas fa-map-marker-alt text-blue-500"></i> Bo. Las Flores, Ave. Juan Pablo II.</p>
-          <p class="flex items-center gap-3"><i class="fas fa-clock text-blue-500"></i> L-V 7:30-5:30 | S 7:30-1:00</p>
-        </div>
-        <a href="https://maps.google.com/?q=Aire+Movil+del+norte" target="_blank" class="inline-flex bg-white text-slate-950 px-8 py-4 rounded-xl font-black text-sm uppercase tracking-widest hover:bg-blue-500 hover:text-white transition-all">
-          MAPS GPS
+        <a href="tel:+50497801461" class="bg-blue-600 text-white px-5 py-2.5 rounded-full font-black text-xs uppercase tracking-widest hover:bg-slate-900 transition-all shadow-lg" aria-label="Llamar a Aire Móvil">
+          <i class="fas fa-phone-alt mr-2"></i> 9780-1461
         </a>
       </div>
-      <div class="h-64 md:h-96 rounded-[2rem] overflow-hidden border border-white/10">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.3795723676812!2d-88.02027912510799!3d15.51776958508462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f665b3663d01903%3A0xf3e6a6c79ae01a5b!2sAire%20Movil!5e0!3m2!1ses!2shn!4v1769285951746!5m2!1ses!2shn" class="w-full h-full border-0 grayscale" allowfullscreen="" loading="lazy"></iframe>
-      </div>
-    </div>
-  </section>
+    </nav>
+  </header>
 
-  <footer class="py-12 bg-white text-center px-6 border-t border-slate-200">
-    <div class="flex justify-center gap-8 mb-8 text-xl text-slate-400">
-      <a href="https://www.facebook.com/airemovil" target="_blank" class="hover:text-blue-600"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.instagram.com/airemovil" target="_blank" class="hover:text-pink-600"><i class="fab fa-instagram"></i></a>
-      <a href="https://wa.me/50497801461" target="_blank" class="hover:text-green-600"><i class="fab fa-whatsapp"></i></a>
+  <main id="main-content">
+    <section id="inicio" class="hero-mesh min-h-screen flex items-center pt-20">
+      <div class="max-w-7xl mx-auto px-6 w-full py-12 text-center lg:text-left">
+        <div class="max-w-4xl space-y-8">
+          <p class="inline-block bg-blue-500/20 border border-blue-400/30 px-4 py-2 rounded-full text-blue-300 text-[10px] md:text-xs font-black uppercase tracking-[0.2em]">
+            San Pedro Sula, Honduras
+          </p>
+          <h1 class="text-5xl md:text-8xl font-[900] text-white leading-[1.1] tracking-tighter uppercase italic">
+            EL CLIMA PERFECTO <span class="text-blue-400">EXISTE.</span>
+          </h1>
+          <p class="text-lg md:text-2xl text-slate-200 max-w-2xl font-light leading-relaxed mx-auto lg:mx-0">
+            Diagnóstico claro, cotización directa y reparación profesional con garantía de 28 años en el norte.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 pt-4 justify-center lg:justify-start">
+            <a href="https://wa.me/50497801461?text=Hola,%20quiero%20agendar%20un%20diagnóstico%20de%20A/C.%20Marca/modelo/año:%20____.%20Síntoma:%20____." 
+               class="bg-green-600 text-white px-10 py-5 rounded-2xl font-black text-lg flex items-center justify-center shadow-2xl hover:bg-green-500 transition-all active:scale-95" aria-label="Agendar por WhatsApp">
+              <i class="fab fa-whatsapp mr-3 text-3xl"></i> WHATSAPP
+            </a>
+            <a href="#contacto" class="border border-white/20 text-white px-10 py-5 rounded-2xl font-black text-lg flex items-center justify-center hover:bg-white/10 transition-all">
+              UBICACIÓN
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl md:text-5xl font-black text-slate-900 mb-16 text-center uppercase tracking-tighter">Servicios Principales</h2>
+        <div class="grid md:grid-cols-3 gap-10">
+          <article class="reveal p-10 bg-slate-50 rounded-[2.5rem] border border-slate-100 hover:shadow-2xl transition-all">
+            <i class="fas fa-snowflake text-4xl text-blue-600 mb-6" aria-hidden="true"></i>
+            <h3 class="text-2xl font-black text-slate-900 mb-4 uppercase">Recarga & Vacío</h3>
+            <p class="text-slate-700 leading-relaxed mb-8">Refrigerante <strong>R134a</strong> y <strong>R1234yf</strong>. Incluye vacío profundo y mantenimiento preventivo.</p>
+            <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20recarga%20de%20A/C" class="text-blue-600 font-black text-sm uppercase tracking-widest border-b-2 border-blue-100 hover:border-blue-600">Cotizar ahora</a>
+          </article>
+
+          <article class="reveal delay-100 p-10 bg-slate-900 rounded-[3rem] shadow-2xl">
+            <i class="fas fa-tools text-4xl text-blue-400 mb-6" aria-hidden="true"></i>
+            <h3 class="text-2xl font-black text-white mb-4 uppercase tracking-tight">Reparaciones</h3>
+            <p class="text-slate-300 leading-relaxed mb-8">Cambio de evaporadores, reparación de fugas y soluciones integrales con garantía real.</p>
+            <a href="https://wa.me/50497801461?text=Hola,%20quiero%20agendar%20diagnóstico" class="text-blue-400 font-black text-sm uppercase tracking-widest border-b-2 border-blue-400">Diagnóstico técnico</a>
+          </article>
+
+          <article class="reveal delay-200 p-10 bg-slate-50 rounded-[2.5rem] border border-slate-100 hover:shadow-2xl transition-all">
+            <i class="fas fa-box text-4xl text-blue-600 mb-6" aria-hidden="true"></i>
+            <h3 class="text-2xl font-black text-slate-900 mb-4 uppercase tracking-tight">Venta de Partes</h3>
+            <p class="text-slate-700 leading-relaxed mb-8">Amplio stock en compresores originales y genéricos instalados por expertos.</p>
+            <a href="https://wa.me/50497801461?text=Hola,%20quiero%20consultar%20stock" class="text-blue-600 font-black text-sm uppercase tracking-widest border-b-2 border-blue-100 hover:border-blue-600">Ver stock</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="py-24 bg-slate-50 border-y border-slate-200">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-12 text-center md:text-left">
+          <div class="space-y-4 border-l-0 md:border-l-4 border-blue-600 md:pl-8">
+            <p class="text-slate-800 text-lg">"Excelente diagnóstico, nos mostraron opciones y la retroalimentación fue clara."</p>
+            <p class="font-black text-[10px] uppercase tracking-[0.3em] text-slate-500">— Fabricio Mejia</p>
+          </div>
+          <div class="space-y-4 border-l-0 md:border-l-4 border-blue-600 md:pl-8">
+            <p class="text-slate-800 text-lg">"Muy profesionales y amables. Dan confianza: tu vehículo está en manos de expertos."</p>
+            <p class="font-black text-[10px] uppercase tracking-[0.3em] text-slate-500">— Claudia Alfaro</p>
+          </div>
+          <div class="space-y-4 border-l-0 md:border-l-4 border-blue-600 md:pl-8">
+            <p class="text-slate-800 text-lg">"Excelente servicio y recomendaciones. Satisfechos con el resultado."</p>
+            <p class="font-black text-[10px] uppercase tracking-[0.3em] text-slate-500">— Leonel Molina</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="py-24 bg-slate-950 text-white overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+        <div class="space-y-10">
+          <h2 class="text-4xl md:text-6xl font-black uppercase tracking-tighter italic">Visítanos en <br><span class="text-blue-500">SPS</span></h2>
+          <div class="space-y-6 text-slate-400 text-lg">
+            <p class="flex items-center gap-4"><i class="fas fa-map-marker-alt text-blue-500"></i> Bo. Las Flores, Ave. Juan Pablo II, SPS.</p>
+            <p class="flex items-center gap-4"><i class="fas fa-clock text-blue-500"></i> L-V 7:30-5:30 | S 7:30-1:00</p>
+          </div>
+          <a href="https://maps.google.com/?q=Aire+Movil+del+norte" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-slate-900 px-10 py-5 rounded-2xl font-black uppercase tracking-widest hover:bg-blue-600 hover:text-white transition-all">
+            Abrir GPS
+          </a>
+        </div>
+        <div class="h-96 rounded-[3rem] overflow-hidden border border-white/10 group">
+          <iframe title="Mapa de ubicación Aire Móvil del Norte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.3795723676812!2d-88.02027912510799!3d15.51776958508462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f665b3663d01903%3A0xf3e6a6c79ae01a5b!2sAire%20Movil!5e0!3m2!1ses!2shn!4v1769285951746!5m2!1ses!2shn" 
+            class="w-full h-full border-0 grayscale group-hover:grayscale-0 transition-all duration-700 opacity-80" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-20 bg-white border-t border-slate-200 text-center">
+    <div class="flex justify-center gap-10 mb-10 text-2xl text-slate-400">
+      <a href="https://www.facebook.com/airemovil" target="_blank" aria-label="Facebook Aire Móvil"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/airemovil" target="_blank" aria-label="Instagram Aire Móvil"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/50497801461" target="_blank" aria-label="WhatsApp Aire Móvil"><i class="fab fa-whatsapp"></i></a>
     </div>
-    <p class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400 leading-relaxed">
+    <p class="text-[10px] font-black uppercase tracking-[0.4em] text-slate-500">
       © 2026 Aire Móvil del Norte • Honduras <br>
-      <span class="font-normal opacity-50">Diseño por H2 Creative</span>
+      <span class="opacity-50 mt-2 block">Creado por H2 Creative</span>
     </p>
   </footer>
 
   <a href="https://wa.me/50497801461?text=Hola,%20visito%20su%20web%20y%20necesito%20ayuda"
-     target="_blank" 
-     class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-2xl z-[100] transition-transform active:scale-90">
-    <i class="fab fa-whatsapp text-3xl"></i>
+     target="_blank" rel="noopener noreferrer"
+     class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-90 transition-all z-[100] border-4 border-white/20"
+     aria-label="Chatear por WhatsApp">
+    <i class="fab fa-whatsapp text-4xl"></i>
   </a>
 
   <script>
     const reveals = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add('active');
-      });
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
     }, { threshold: 0.1 });
     reveals.forEach(el => observer.observe(el));
   </script>
+
 </body>
 </html>
