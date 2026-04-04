@@ -19,42 +19,67 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "AutoRepair",
-    "name": "Aire Móvil del Norte",
-    "image": "https://airemovilhn.com/assets/logo-airemovil.png",
-    "@id": "https://airemovilhn.com/",
-    "url": "https://airemovilhn.com/",
-    "telephone": "+50497801461",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Bo. Las Flores, Ave. Juan Pablo II",
-      "addressLocality": "San Pedro Sula",
-      "addressRegion": "Cortés",
-      "addressCountry": "HN"
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Aire Móvil del Norte",
+  "image": "https://airemovilhn.com/assets/logo-airemovil.png",
+  "@id": "https://airemovilhn.com/",
+  "url": "https://airemovilhn.com/",
+  "telephone": "+50497801461",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Bo. Las Flores, Ave. Juan Pablo II",
+    "addressLocality": "San Pedro Sula",
+    "addressRegion": "Cortés",
+    "addressCountry": "HN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 15.5177696,
+    "longitude": -88.0202791
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "07:30",
+      "closes": "17:30"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 15.5000000, 
-      "longitude": -88.0250000
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "07:30",
+      "closes": "13:00"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "3"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Fabricio Mejia" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+      "reviewBody": "Excelente diagnóstico, nos mostraron opciones y la retroalimentación fue clara. Tu vehículo está en manos de expertos."
     },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:30",
-        "closes": "17:30"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "07:30",
-        "closes": "13:00"
-      }
-    ]
-  }
-  </script>
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Claudia Alfaro" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+      "reviewBody": "Muy profesionales y amables. Dan total confianza desde que llegas al taller. Se nota la experiencia de los años."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Leonel Molina" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+      "reviewBody": "Excelente servicio y recomendaciones. Muy satisfechos con el resultado, el aire acondicionado quedó enfriando al instante."
+    }
+  ]
+}
+</script>
 
   <style>
     body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #0f172a; }
@@ -67,6 +92,15 @@
     .reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
     .reveal.active { opacity: 1; transform: translateY(0); }
   </style>
+
+  <!-- Open Graph -->
+<meta property="og:title" content="Taller de Aire Acondicionado Automotriz en San Pedro Sula | Aire Móvil">
+<meta property="og:description" content="Expertos en instalación, reparación y mantenimiento de aire acondicionado automotriz en San Pedro Sula. 28 años de experiencia. Garantía real.">
+<meta property="og:image" content="https://airemovilhn.com/assets/logo-airemovil.png">
+<meta property="og:url" content="https://airemovilhn.com">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_HN">
+  
 </head>
 
 <body>
@@ -101,8 +135,8 @@
           </p>
           
           <h1 class="text-5xl md:text-7xl font-[900] text-white leading-[1.1] tracking-tighter uppercase">
-            Expertos en <span class="text-blue-400">A/C Automotriz</span>
-          </h1>
+  Taller de <span class="text-blue-400">A/C Automotriz</span> en San Pedro Sula
+</h1>
           <p class="text-3xl md:text-5xl font-[900] text-slate-300 italic tracking-tighter uppercase">
             El clima perfecto existe.
           </p>
