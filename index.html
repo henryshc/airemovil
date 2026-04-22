@@ -101,11 +101,10 @@
 
         <div class="hidden md:flex gap-8 font-bold text-slate-700 text-xs uppercase tracking-[0.2em]">
           <a href="#servicios-ac" class="hover:text-blue-600 transition-colors">Servicios A/C</a>
-          <a href="#vehiculos" class="hover:text-blue-600 transition-colors">Vehículos</a>
+          <a href="#catalogo" class="hover:text-blue-600 transition-colors">Catálogo</a>
           <a href="#testimonios" class="hover:text-blue-600 transition-colors">Opiniones</a>
           <a href="#contacto" class="hover:text-blue-600 transition-colors">Ubicación</a>
         </div>
-        <a href="#catalogo" class="hover:text-blue-600 transition-colors">Catálogo</a>
 
         <a href="tel:+50497801461" class="bg-blue-600 text-white px-5 py-2.5 rounded-full font-black text-xs uppercase tracking-widest hover:bg-slate-900 transition-all shadow-lg" aria-label="Llamar a recepción de Aire Móvil">
           <i class="fas fa-phone-alt mr-2"></i> 9780-1461
@@ -123,8 +122,8 @@
           </p>
           
           <h1 class="text-5xl md:text-7xl font-[900] text-white leading-[1.1] tracking-tighter uppercase">
-  Taller de <span class="text-blue-400">A/C Automotriz</span> en San Pedro Sula
-</h1>
+            Taller de <span class="text-blue-400">A/C Automotriz</span> en San Pedro Sula
+          </h1>
           <p class="text-3xl md:text-5xl font-[900] text-slate-300 italic tracking-tighter uppercase">
             El clima perfecto existe.
           </p>
@@ -173,14 +172,213 @@
       </div>
     </section>
 
-    <section id="vehiculos" class="py-24 bg-slate-100 border-y border-slate-200">
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <span class="text-blue-600 font-black text-sm uppercase tracking-widest mb-4 block">Importación Directa</span>
-        <h2 class="text-3xl md:text-5xl font-black text-slate-900 mb-8 uppercase tracking-tighter">Venta de Vehículos de USA</h2>
-        <p class="text-lg text-slate-600 max-w-3xl mx-auto mb-12">No solo cuidamos tu auto, también te conseguimos uno nuevo. Importamos vehículos desde Estados Unidos bajo pedido, garantizando transparencia en aduanas y estado mecánico.</p>
-        <a href="https://wa.me/50497801461?text=Hola,%20me%20interesa%20la%20importación%20de%20un%20vehículo%20desde%20USA." target="_blank" rel="noopener noreferrer" class="inline-block bg-slate-900 text-white px-8 py-4 rounded-xl font-black text-sm uppercase tracking-widest hover:bg-blue-600 transition-all shadow-lg">
-          CONSULTAR CATÁLOGO E IMPORTACIÓN
-        </a>
+    <!-- CATÁLOGO -->
+    <section id="catalogo" class="py-24 bg-slate-950 text-white overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-16">
+          <span class="text-blue-400 font-black text-sm uppercase tracking-widest mb-4 block">Catálogo Aire Móvil</span>
+          <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tighter">
+            Servicios &amp; <span class="text-blue-500">Vehículos</span>
+          </h2>
+          <p class="text-slate-400 mt-4 text-lg max-w-xl mx-auto">Cotiza directamente por WhatsApp. Precios negociables, garantía real.</p>
+        </div>
+
+        <!-- TAB SWITCHER -->
+        <div class="flex justify-center gap-3 mb-14">
+          <button
+            id="tab-servicios"
+            onclick="switchTab('servicios')"
+            class="catalog-tab active-tab px-7 py-3 rounded-full font-black text-sm uppercase tracking-widest transition-all">
+            <i class="fas fa-snowflake mr-2"></i> Servicios A/C
+          </button>
+          <button
+            id="tab-vehiculos"
+            onclick="switchTab('vehiculos')"
+            class="catalog-tab px-7 py-3 rounded-full font-black text-sm uppercase tracking-widest transition-all">
+            <i class="fas fa-car mr-2"></i> Vehículos
+          </button>
+        </div>
+
+        <!-- SERVICIOS GRID -->
+        <div id="panel-servicios" class="catalog-panel grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] p-8 flex flex-col hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
+            <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-6">
+              <i class="fas fa-search text-blue-400 text-2xl"></i>
+            </div>
+            <h3 class="text-white font-black text-lg uppercase tracking-tight mb-2">Diagnóstico A/C</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-1">Revisión completa del sistema de climatización. Incluye lectura de presiones y reporte.</p>
+            <div class="flex items-end justify-between">
+              <span class="text-blue-400 font-black text-xl">L. 518</span>
+              <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20el%20Diagnóstico%20A/C%20(L.518)."
+                 target="_blank" rel="noopener noreferrer"
+                 class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
+                 aria-label="Cotizar Diagnóstico A/C por WhatsApp">
+                <i class="fab fa-whatsapp text-lg"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] p-8 flex flex-col hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
+            <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-6">
+              <i class="fas fa-wind text-blue-400 text-2xl"></i>
+            </div>
+            <h3 class="text-white font-black text-lg uppercase tracking-tight mb-2">Cambio de Evaporador</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-1">Sustitución profesional del evaporador con piezas de calidad. Garantía incluida.</p>
+            <div class="flex items-end justify-between">
+              <span class="text-slate-400 font-black text-sm uppercase tracking-wider">
+                <i class="fas fa-shield-alt text-green-400 mr-1"></i> 30 días garantía
+              </span>
+              <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20Cambio%20de%20Evaporador."
+                 target="_blank" rel="noopener noreferrer"
+                 class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
+                 aria-label="Cotizar Cambio de Evaporador por WhatsApp">
+                <i class="fab fa-whatsapp text-lg"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] p-8 flex flex-col hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
+            <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-6">
+              <i class="fas fa-cog text-blue-400 text-2xl"></i>
+            </div>
+            <h3 class="text-white font-black text-lg uppercase tracking-tight mb-2">Cambio de Compresor</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-1">Compresores nuevos y reconstruidos para todas las marcas. Instalación profesional.</p>
+            <div class="flex items-end justify-between">
+              <span class="text-slate-400 font-black text-sm uppercase tracking-wider">
+                <i class="fas fa-shield-alt text-green-400 mr-1"></i> 30 días garantía
+              </span>
+              <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20Cambio%20de%20Compresor."
+                 target="_blank" rel="noopener noreferrer"
+                 class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
+                 aria-label="Cotizar Cambio de Compresor por WhatsApp">
+                <i class="fab fa-whatsapp text-lg"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] p-8 flex flex-col hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
+            <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-6">
+              <i class="fas fa-tint-slash text-blue-400 text-2xl"></i>
+            </div>
+            <h3 class="text-white font-black text-lg uppercase tracking-tight mb-2">Detección de Fugas</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-1">Localización precisa de fugas en el sistema con equipos especializados.</p>
+            <div class="flex items-end justify-between">
+              <span class="text-blue-400 font-black text-sm uppercase tracking-wider">Consultar precio</span>
+              <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20Detección%20de%20Fugas."
+                 target="_blank" rel="noopener noreferrer"
+                 class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
+                 aria-label="Cotizar Detección de Fugas por WhatsApp">
+                <i class="fab fa-whatsapp text-lg"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- VEHÍCULOS GRID -->
+        <div id="panel-vehiculos" class="catalog-panel hidden grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
+            <div class="h-44 bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center relative overflow-hidden">
+              <i class="fas fa-car text-6xl text-slate-600 group-hover:text-blue-500/40 transition-colors"></i>
+              <span class="absolute top-3 left-3 bg-blue-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">En venta</span>
+            </div>
+            <div class="p-6 flex flex-col gap-4">
+              <div>
+                <h3 class="text-white font-black text-base uppercase tracking-tight">Pontiac Vibe 2003</h3>
+                <p class="text-slate-400 text-xs mt-1">Importado desde USA · A/C verificado</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-blue-400 font-black text-xl">L. 169,000</span>
+                <a href="https://wa.me/50497801461?text=Hola,%20me%20interesa%20el%20Pontiac%20Vibe%202003%20(L.169,000)."
+                   target="_blank" rel="noopener noreferrer"
+                   class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
+                   aria-label="Consultar Pontiac Vibe 2003 por WhatsApp">
+                  <i class="fab fa-whatsapp text-lg"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
+            <div class="h-44 bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center relative overflow-hidden">
+              <i class="fas fa-car-side text-6xl text-slate-600 group-hover:text-blue-500/40 transition-colors"></i>
+              <span class="absolute top-3 left-3 bg-orange-500 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">Precio neg.</span>
+            </div>
+            <div class="p-6 flex flex-col gap-4">
+              <div>
+                <h3 class="text-white font-black text-base uppercase tracking-tight">Ford Escape 2012</h3>
+                <p class="text-slate-400 text-xs mt-1">Importado desde USA · Precio negociable</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-blue-400 font-black text-xl">L. 165,000</span>
+                <a href="https://wa.me/50497801461?text=Hola,%20me%20interesa%20el%20Ford%20Escape%202012%20(L.165,000)."
+                   target="_blank" rel="noopener noreferrer"
+                   class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
+                   aria-label="Consultar Ford Escape 2012 por WhatsApp">
+                  <i class="fab fa-whatsapp text-lg"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
+            <div class="h-44 bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center relative overflow-hidden">
+              <i class="fas fa-truck-pickup text-6xl text-slate-600 group-hover:text-blue-500/40 transition-colors"></i>
+              <span class="absolute top-3 left-3 bg-orange-500 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">Precio neg.</span>
+            </div>
+            <div class="p-6 flex flex-col gap-4">
+              <div>
+                <h3 class="text-white font-black text-base uppercase tracking-tight">Nissan Frontier 2006</h3>
+                <p class="text-slate-400 text-xs mt-1">Importado desde USA · Precio negociable</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-blue-400 font-black text-xl">L. 218,000</span>
+                <a href="https://wa.me/50497801461?text=Hola,%20me%20interesa%20la%20Nissan%20Frontier%202006%20(L.218,000)."
+                   target="_blank" rel="noopener noreferrer"
+                   class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
+                   aria-label="Consultar Nissan Frontier 2006 por WhatsApp">
+                  <i class="fab fa-whatsapp text-lg"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
+            <div class="h-44 bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center relative overflow-hidden">
+              <i class="fas fa-car text-6xl text-slate-600 group-hover:text-blue-500/40 transition-colors"></i>
+              <span class="absolute top-3 left-3 bg-blue-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">En venta</span>
+            </div>
+            <div class="p-6 flex flex-col gap-4">
+              <div>
+                <h3 class="text-white font-black text-base uppercase tracking-tight">Honda CR-V 2010</h3>
+                <p class="text-slate-400 text-xs mt-1">Importado desde USA · A/C verificado</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-blue-400 font-black text-xl">L. 225,000</span>
+                <a href="https://wa.me/50497801461?text=Hola,%20me%20interesa%20el%20Honda%20CR-V%202010%20(L.225,000)."
+                   target="_blank" rel="noopener noreferrer"
+                   class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
+                   aria-label="Consultar Honda CR-V 2010 por WhatsApp">
+                  <i class="fab fa-whatsapp text-lg"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- CTA catálogo completo -->
+        <div class="text-center mt-14">
+          <a href="https://wa.me/c/50497801461" target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-3 border border-slate-700 hover:border-green-500 text-slate-300 hover:text-white px-8 py-4 rounded-2xl font-black text-sm uppercase tracking-widest transition-all">
+            <i class="fab fa-whatsapp text-green-400 text-xl"></i>
+            Ver catálogo completo en WhatsApp
+          </a>
+        </div>
+
       </div>
     </section>
 
@@ -200,19 +398,14 @@
           
           <article class="bg-white p-10 rounded-[2.5rem] shadow-xl shadow-slate-200/50 border border-slate-100 relative group hover:-translate-y-2 transition-all duration-300">
             <i class="fas fa-quote-right absolute top-10 right-10 text-5xl text-slate-50 group-hover:text-blue-50 transition-colors" aria-hidden="true"></i>
-            
             <div class="flex text-yellow-400 text-sm mb-6 gap-1">
               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
             </div>
-            
             <p class="text-slate-700 text-lg leading-relaxed mb-8 relative z-10 font-medium">
               "Excelente diagnóstico, nos mostraron opciones y la retroalimentación fue clara. Tu vehículo está en manos de expertos."
             </p>
-            
             <footer class="flex items-center gap-4 mt-auto border-t border-slate-100 pt-6">
-              <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-black text-xl shadow-lg">
-                F
-              </div>
+              <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-black text-xl shadow-lg">F</div>
               <div>
                 <p class="font-black text-sm uppercase tracking-wider text-slate-900">Fabricio Mejia</p>
                 <p class="text-[10px] uppercase tracking-[0.2em] text-blue-600 font-bold">Cliente Verificado</p>
@@ -222,19 +415,14 @@
 
           <article class="bg-white p-10 rounded-[2.5rem] shadow-xl shadow-slate-200/50 border border-slate-100 relative group hover:-translate-y-2 transition-all duration-300">
             <i class="fas fa-quote-right absolute top-10 right-10 text-5xl text-slate-50 group-hover:text-blue-50 transition-colors" aria-hidden="true"></i>
-            
             <div class="flex text-yellow-400 text-sm mb-6 gap-1">
               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
             </div>
-            
             <p class="text-slate-700 text-lg leading-relaxed mb-8 relative z-10 font-medium">
               "Muy profesionales y amables. Dan total confianza desde que llegas al taller. Se nota la experiencia de los años."
             </p>
-            
             <footer class="flex items-center gap-4 mt-auto border-t border-slate-100 pt-6">
-              <div class="w-12 h-12 bg-slate-900 text-white rounded-full flex items-center justify-center font-black text-xl shadow-lg">
-                C
-              </div>
+              <div class="w-12 h-12 bg-slate-900 text-white rounded-full flex items-center justify-center font-black text-xl shadow-lg">C</div>
               <div>
                 <p class="font-black text-sm uppercase tracking-wider text-slate-900">Claudia Alfaro</p>
                 <p class="text-[10px] uppercase tracking-[0.2em] text-slate-500">Servicio A/C</p>
@@ -244,19 +432,14 @@
 
           <article class="bg-white p-10 rounded-[2.5rem] shadow-xl shadow-slate-200/50 border border-slate-100 relative group hover:-translate-y-2 transition-all duration-300">
             <i class="fas fa-quote-right absolute top-10 right-10 text-5xl text-slate-50 group-hover:text-blue-50 transition-colors" aria-hidden="true"></i>
-            
             <div class="flex text-yellow-400 text-sm mb-6 gap-1">
               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
             </div>
-            
             <p class="text-slate-700 text-lg leading-relaxed mb-8 relative z-10 font-medium">
               "Excelente servicio y recomendaciones. Muy satisfechos con el resultado, el aire acondicionado quedó enfriando al instante."
             </p>
-            
             <footer class="flex items-center gap-4 mt-auto border-t border-slate-100 pt-6">
-              <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-black text-xl shadow-inner">
-                L
-              </div>
+              <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-black text-xl shadow-inner">L</div>
               <div>
                 <p class="font-black text-sm uppercase tracking-wider text-slate-900">Leonel Molina</p>
                 <p class="text-[10px] uppercase tracking-[0.2em] text-slate-500">Mantenimiento</p>
@@ -294,228 +477,6 @@
     </section>
   </main>
 
-  <!-- ============================================================
-     SECCIÓN CATÁLOGO — insertar ANTES del footer en index.html
-     ============================================================ -->
- 
-<section id="catalogo" class="py-24 bg-slate-950 text-white overflow-hidden">
-  <div class="max-w-7xl mx-auto px-6">
- 
-    <!-- Header -->
-    <div class="text-center mb-16">
-      <span class="text-blue-400 font-black text-sm uppercase tracking-widest mb-4 block">Catálogo Aire Móvil</span>
-      <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tighter">
-        Servicios &amp; <span class="text-blue-500">Vehículos</span>
-      </h2>
-      <p class="text-slate-400 mt-4 text-lg max-w-xl mx-auto">Cotiza directamente por WhatsApp. Precios negociables, garantía real.</p>
-    </div>
- 
-    <!-- TAB SWITCHER -->
-    <div class="flex justify-center gap-3 mb-14">
-      <button
-        id="tab-servicios"
-        onclick="switchTab('servicios')"
-        class="catalog-tab active-tab px-7 py-3 rounded-full font-black text-sm uppercase tracking-widest transition-all">
-        <i class="fas fa-snowflake mr-2"></i> Servicios A/C
-      </button>
-      <button
-        id="tab-vehiculos"
-        onclick="switchTab('vehiculos')"
-        class="catalog-tab px-7 py-3 rounded-full font-black text-sm uppercase tracking-widest transition-all">
-        <i class="fas fa-car mr-2"></i> Vehículos
-      </button>
-    </div>
- 
-    <!-- SERVICIOS GRID -->
-    <div id="panel-servicios" class="catalog-panel grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
- 
-      <!-- Diagnóstico AC -->
-      <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] p-8 flex flex-col hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
-        <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-6">
-          <i class="fas fa-search text-blue-400 text-2xl"></i>
-        </div>
-        <h3 class="text-white font-black text-lg uppercase tracking-tight mb-2">Diagnóstico A/C</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-1">Revisión completa del sistema de climatización. Incluye lectura de presiones y reporte.</p>
-        <div class="flex items-end justify-between">
-          <span class="text-blue-400 font-black text-xl">L. 518</span>
-          <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20el%20Diagnóstico%20A/C%20(L.518)." 
-             target="_blank" rel="noopener noreferrer"
-             class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
-             aria-label="Cotizar Diagnóstico A/C por WhatsApp">
-            <i class="fab fa-whatsapp text-lg"></i>
-          </a>
-        </div>
-      </article>
- 
-      <!-- Cambio de evaporador -->
-      <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] p-8 flex flex-col hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
-        <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-6">
-          <i class="fas fa-wind text-blue-400 text-2xl"></i>
-        </div>
-        <h3 class="text-white font-black text-lg uppercase tracking-tight mb-2">Cambio de Evaporador</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-1">Sustitución profesional del evaporador con piezas de calidad. Garantía incluida.</p>
-        <div class="flex items-end justify-between">
-          <span class="text-slate-400 font-black text-sm uppercase tracking-wider">
-            <i class="fas fa-shield-alt text-green-400 mr-1"></i> 30 días garantía
-          </span>
-          <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20Cambio%20de%20Evaporador." 
-             target="_blank" rel="noopener noreferrer"
-             class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
-             aria-label="Cotizar Cambio de Evaporador por WhatsApp">
-            <i class="fab fa-whatsapp text-lg"></i>
-          </a>
-        </div>
-      </article>
- 
-      <!-- Cambio de compresor -->
-      <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] p-8 flex flex-col hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
-        <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-6">
-          <i class="fas fa-cog text-blue-400 text-2xl"></i>
-        </div>
-        <h3 class="text-white font-black text-lg uppercase tracking-tight mb-2">Cambio de Compresor</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-1">Compresores nuevos y reconstruidos para todas las marcas. Instalación profesional.</p>
-        <div class="flex items-end justify-between">
-          <span class="text-slate-400 font-black text-sm uppercase tracking-wider">
-            <i class="fas fa-shield-alt text-green-400 mr-1"></i> 30 días garantía
-          </span>
-          <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20Cambio%20de%20Compresor." 
-             target="_blank" rel="noopener noreferrer"
-             class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
-             aria-label="Cotizar Cambio de Compresor por WhatsApp">
-            <i class="fab fa-whatsapp text-lg"></i>
-          </a>
-        </div>
-      </article>
- 
-      <!-- Detección de fugas -->
-      <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] p-8 flex flex-col hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
-        <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center mb-6">
-          <i class="fas fa-tint-slash text-blue-400 text-2xl"></i>
-        </div>
-        <h3 class="text-white font-black text-lg uppercase tracking-tight mb-2">Detección de Fugas</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-1">Localización precisa de fugas en el sistema con equipos especializados.</p>
-        <div class="flex items-end justify-between">
-          <span class="text-blue-400 font-black text-sm uppercase tracking-wider">Consultar precio</span>
-          <a href="https://wa.me/50497801461?text=Hola,%20quiero%20cotizar%20Detección%20de%20Fugas." 
-             target="_blank" rel="noopener noreferrer"
-             class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
-             aria-label="Cotizar Detección de Fugas por WhatsApp">
-            <i class="fab fa-whatsapp text-lg"></i>
-          </a>
-        </div>
-      </article>
- 
-    </div>
- 
-    <!-- VEHÍCULOS GRID -->
-    <div id="panel-vehiculos" class="catalog-panel hidden grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
- 
-      <!-- Pontiac Vibe 2003 -->
-      <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
-        <div class="h-44 bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center relative overflow-hidden">
-          <i class="fas fa-car text-6xl text-slate-600 group-hover:text-blue-500/40 transition-colors"></i>
-          <span class="absolute top-3 left-3 bg-blue-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">En venta</span>
-        </div>
-        <div class="p-6 flex flex-col gap-4">
-          <div>
-            <h3 class="text-white font-black text-base uppercase tracking-tight">Pontiac Vibe 2003</h3>
-            <p class="text-slate-400 text-xs mt-1">Importado desde USA · A/C verificado</p>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="text-blue-400 font-black text-xl">L. 169,000</span>
-            <a href="https://wa.me/50497801461?text=Hola,%20me%20interesa%20el%20Pontiac%20Vibe%202003%20(L.169,000)." 
-               target="_blank" rel="noopener noreferrer"
-               class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
-               aria-label="Consultar Pontiac Vibe 2003 por WhatsApp">
-              <i class="fab fa-whatsapp text-lg"></i>
-            </a>
-          </div>
-        </div>
-      </article>
- 
-      <!-- Ford Escape 2012 -->
-      <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
-        <div class="h-44 bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center relative overflow-hidden">
-          <i class="fas fa-car-side text-6xl text-slate-600 group-hover:text-blue-500/40 transition-colors"></i>
-          <span class="absolute top-3 left-3 bg-orange-500 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">Precio neg.</span>
-        </div>
-        <div class="p-6 flex flex-col gap-4">
-          <div>
-            <h3 class="text-white font-black text-base uppercase tracking-tight">Ford Escape 2012</h3>
-            <p class="text-slate-400 text-xs mt-1">Importado desde USA · Precio negociable</p>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="text-blue-400 font-black text-xl">L. 165,000</span>
-            <a href="https://wa.me/50497801461?text=Hola,%20me%20interesa%20el%20Ford%20Escape%202012%20(L.165,000)." 
-               target="_blank" rel="noopener noreferrer"
-               class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
-               aria-label="Consultar Ford Escape 2012 por WhatsApp">
-              <i class="fab fa-whatsapp text-lg"></i>
-            </a>
-          </div>
-        </div>
-      </article>
- 
-      <!-- Nissan Frontier 2006 -->
-      <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
-        <div class="h-44 bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center relative overflow-hidden">
-          <i class="fas fa-truck-pickup text-6xl text-slate-600 group-hover:text-blue-500/40 transition-colors"></i>
-          <span class="absolute top-3 left-3 bg-orange-500 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">Precio neg.</span>
-        </div>
-        <div class="p-6 flex flex-col gap-4">
-          <div>
-            <h3 class="text-white font-black text-base uppercase tracking-tight">Nissan Frontier 2006</h3>
-            <p class="text-slate-400 text-xs mt-1">Importado desde USA · Precio negociable</p>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="text-blue-400 font-black text-xl">L. 218,000</span>
-            <a href="https://wa.me/50497801461?text=Hola,%20me%20interesa%20la%20Nissan%20Frontier%202006%20(L.218,000)." 
-               target="_blank" rel="noopener noreferrer"
-               class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
-               aria-label="Consultar Nissan Frontier 2006 por WhatsApp">
-              <i class="fab fa-whatsapp text-lg"></i>
-            </a>
-          </div>
-        </div>
-      </article>
- 
-      <!-- Honda CRV 2010 -->
-      <article class="catalog-card group bg-slate-900 border border-slate-800 rounded-[2rem] overflow-hidden hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
-        <div class="h-44 bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center relative overflow-hidden">
-          <i class="fas fa-car text-6xl text-slate-600 group-hover:text-blue-500/40 transition-colors"></i>
-          <span class="absolute top-3 left-3 bg-blue-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">En venta</span>
-        </div>
-        <div class="p-6 flex flex-col gap-4">
-          <div>
-            <h3 class="text-white font-black text-base uppercase tracking-tight">Honda CR-V 2010</h3>
-            <p class="text-slate-400 text-xs mt-1">Importado desde USA · A/C verificado</p>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="text-blue-400 font-black text-xl">L. 225,000</span>
-            <a href="https://wa.me/50497801461?text=Hola,%20me%20interesa%20el%20Honda%20CR-V%202010%20(L.225,000)." 
-               target="_blank" rel="noopener noreferrer"
-               class="bg-green-600 hover:bg-green-500 text-white w-10 h-10 rounded-full flex items-center justify-center transition-all active:scale-90 shadow-lg"
-               aria-label="Consultar Honda CR-V 2010 por WhatsApp">
-              <i class="fab fa-whatsapp text-lg"></i>
-            </a>
-          </div>
-        </div>
-      </article>
- 
-    </div>
- 
-    <!-- CTA ver catálogo completo -->
-    <div class="text-center mt-14">
-      <a href="https://wa.me/c/50497801461" target="_blank" rel="noopener noreferrer"
-         class="inline-flex items-center gap-3 border border-slate-700 hover:border-green-500 text-slate-300 hover:text-white px-8 py-4 rounded-2xl font-black text-sm uppercase tracking-widest transition-all">
-        <i class="fab fa-whatsapp text-green-400 text-xl"></i>
-        Ver catálogo completo en WhatsApp
-      </a>
-    </div>
- 
-  </div>
-</section>
-
   <footer class="py-20 bg-white border-t border-slate-200 text-center">
     <div class="flex justify-center gap-10 mb-10 text-2xl text-slate-400">
       <a href="https://www.facebook.com/airemovil" target="_blank" aria-label="Síguenos en Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -534,7 +495,6 @@
      aria-label="Chatear con soporte por WhatsApp">
     <i class="fab fa-whatsapp text-4xl"></i>
   </a>
-
 
   <script type="module" src="/main.js"></script>
 
