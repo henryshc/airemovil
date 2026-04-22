@@ -18,4 +18,5 @@ function switchTab(tab) {
   document.getElementById('panel-' + tab).classList.remove('hidden');
   document.getElementById('tab-' + tab).classList.add('active-tab');
 }
+ 
 window.switchTab = switchTab;
