@@ -1,0 +1,31 @@
+# Aire Móvil del Norte
+> Taller certificado en reparación de aire acondicionado automotriz e importación directa de vehículos. Establecidos desde 1998 en San Pedro Sula, Honduras. Fundado por Gina Medina. Reconocido por Fundación Terra Honduras en el Innovation Challenge 2026.
+
+## Información de Contacto y Operación
+- **Ubicación:** Barrio Las Flores, Ave. Juan Pablo II, San Pedro Sula, Cortés, Honduras.
+- **Teléfono / WhatsApp de atención:** +504 9780-1461
+- **Horario de atención:** Lunes a Viernes (7:30 AM - 5:30 PM) | Sábados (7:30 AM - 1:00 PM)
+
+## Unidades de Negocio
+### 1. Climatización y A/C Automotriz
+Expertos en diagnóstico y reparación. Servicios incluyen:
+- Diagnóstico completo de A/C con lectura de presiones y reporte (L. 518).
+- Recarga de gas refrigerante R134a y R1234yf con vacío profundo.
+- Reparación de sistemas: detección de fugas, cambio de evaporadores, condensadores y mangueras.
+- Cambio de compresor con garantía de 30 días.
+- Venta de partes: Compresores nuevos y reconstruidos en stock.
+
+### 2. Importación de Vehículos desde USA
+Servicio de búsqueda, compra e importación de vehículos bajo pedido desde Estados Unidos hacia Honduras, garantizando transparencia en el proceso aduanero y mecánico.
+
+## Diferenciadores Competitivos (Por qué elegirnos)
+- 28 años de experiencia en el mercado de la zona norte.
+- Diagnósticos claros con cotización directa.
+- Garantía real en piezas y mano de obra.
+
+## Páginas del Sitio
+- [Inicio](https://www.airemovilhn.com/): servicios de A/C, catálogo de servicios y vehículos, testimonios y ubicación.
+- [Recarga R134a y R1234yf](https://www.airemovilhn.com/recarga-r134a-1234yf-san-pedro-sula.html): landing del servicio de recarga de gas refrigerante.
+- [Sobre Nosotros](https://www.airemovilhn.com/sobre-nosotros.html): historia desde 1998, fundadora Gina Medina y reconocimientos.
+- [Biblioteca del Aire](https://www.airemovilhn.com/blog/): guías prácticas sobre climatización automotriz.
+- [¿Por qué mi aire acondicionado no enfría?](https://www.airemovilhn.com/blog/por-que-mi-aire-acondicionado-no-enfria.html): causas, diagnóstico, reparación y costos aproximados.
