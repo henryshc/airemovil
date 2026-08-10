@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>¿Por qué el aire acondicionado de mi carro huele mal? Causas y solución | Aire Móvil</title>
+  <meta name="description" content="Olor a humedad, vinagre o quemado en el A/C del carro: qué significa cada olor, por qué pasa en el clima de Honduras y cómo se elimina de raíz.">
+  <link rel="canonical" href="https://www.airemovilhn.com/blog/por-que-el-aire-de-mi-carro-huele-mal.html" />
+
+  <link rel="icon" type="image/png" href="../assets/logo-airemovil.png">
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+  <meta property="og:title" content="¿Por qué el aire acondicionado de mi carro huele mal?">
+  <meta property="og:description" content="Olor a humedad, vinagre o quemado: qué significa cada uno, por qué pasa en el clima de Honduras y cómo se elimina de raíz.">
+  <meta property="og:image" content="https://www.airemovilhn.com/assets/B1_MANTENIMIENTO.png">
+  <meta property="og:url" content="https://www.airemovilhn.com/blog/por-que-el-aire-de-mi-carro-huele-mal.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="es_HN">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "¿Por qué el aire acondicionado de mi carro huele mal? Causas y solución",
+    "description": "Qué significa cada olor del A/C automotriz (humedad, vinagre, quemado, gas), por qué sucede en el clima húmedo de Honduras y cómo se elimina de raíz.",
+    "image": "https://www.airemovilhn.com/assets/B1_MANTENIMIENTO.png",
+    "datePublished": "2026-08-10",
+    "dateModified": "2026-08-10",
+    "inLanguage": "es-HN",
+    "author": { "@type": "Organization", "name": "Aire Móvil del Norte", "url": "https://www.airemovilhn.com/" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aire Móvil del Norte",
+      "logo": { "@type": "ImageObject", "url": "https://www.airemovilhn.com/assets/logo-airemovil.png" }
+    },
+    "mainEntityOfPage": "https://www.airemovilhn.com/blog/por-que-el-aire-de-mi-carro-huele-mal.html"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Por qué el aire acondicionado de mi carro huele a humedad?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El olor a humedad o moho viene de hongos y bacterias que crecen en el evaporador, donde se condensa agua constantemente. En el clima húmedo de Honduras es la causa más común. Se elimina con una limpieza y desinfección del evaporador, no con aromatizantes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Es peligroso el mal olor del aire acondicionado del carro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El olor a moho implica respirar esporas de hongos y bacterias, lo que puede irritar vías respiratorias y agravar alergias, especialmente en niños. Un olor a quemado o a gas sí requiere atención inmediata del taller porque puede indicar una falla eléctrica o una fuga."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿El aromatizante quita el mal olor del A/C?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. El aromatizante solo enmascara el olor unos días; los hongos siguen creciendo en el evaporador. La solución real es la limpieza y desinfección del evaporador más el cambio del filtro de cabina."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.airemovilhn.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Biblioteca del Aire", "item": "https://www.airemovilhn.com/blog/" },
+      { "@type": "ListItem", "position": 3, "name": "¿Por qué el aire de mi carro huele mal?" }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bg-white">
+
+  <header>
+    <nav class="fixed top-0 w-full z-[100] bg-white/95 backdrop-blur-xl border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-6 h-16 md:h-20 flex justify-between items-center">
+        <a href="../" aria-label="Volver al inicio de Aire Móvil">
+          <img src="../assets/logo-airemovil.png" alt="Aire Móvil - Taller de A/C Automotriz San Pedro Sula" class="h-10 md:h-12 w-auto">
+        </a>
+        <div class="hidden md:flex gap-8 font-bold text-slate-700 text-xs uppercase tracking-[0.2em]">
+          <a href="../#servicios-ac" class="hover:text-blue-600 transition-colors">Servicios A/C</a>
+          <a href="../#catalogo" class="hover:text-blue-600 transition-colors">Catálogo</a>
+          <a href="./" class="text-blue-600">Biblioteca</a>
+          <a href="../sobre-nosotros.html" class="hover:text-blue-600 transition-colors">Nosotros</a>
+          <a href="../#contacto" class="hover:text-blue-600 transition-colors">Ubicación</a>
+        </div>
+        <a href="tel:+50497801461" class="bg-blue-600 text-white px-5 py-2.5 rounded-full font-black text-xs uppercase tracking-widest hover:bg-slate-900 transition-all shadow-lg" aria-label="Llamar a recepción de Aire Móvil">
+          <i class="fas fa-phone-alt mr-2"></i> +50497801461
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-16 md:pt-20">
+
+    <div class="max-w-3xl mx-auto px-6 pt-8">
+      <nav aria-label="Migas de pan" class="text-xs font-bold uppercase tracking-widest text-slate-400">
+        <a href="../" class="hover:text-blue-600">Inicio</a>
+        <span class="mx-2">/</span>
+        <a href="./" class="hover:text-blue-600">Biblioteca del Aire</a>
+        <span class="mx-2">/</span>
+        <span class="text-slate-600">Mal olor en el A/C</span>
+      </nav>
+    </div>
+
+    <article class="max-w-3xl mx-auto px-6 py-10">
+
+      <div class="flex items-center gap-3 mb-6">
+        <span class="bg-blue-50 text-blue-600 text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">Problemas</span>
+        <time datetime="2026-08-10" class="text-slate-400 text-xs font-bold uppercase tracking-wider">10 Ago 2026</time>
+        <span class="text-slate-400 text-xs font-bold uppercase tracking-wider">· Lectura de 5 min</span>
+      </div>
+
+      <h1 class="text-3xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter leading-tight mb-6">
+        ¿Por qué el aire de mi carro <span class="text-blue-600">huele mal</span>?
+      </h1>
+
+      <div class="bg-blue-50 border-l-4 border-blue-600 rounded-r-2xl p-6 mb-10">
+        <p class="text-slate-800 text-lg leading-relaxed font-medium">
+          <strong>Respuesta rápida:</strong> el mal olor del aire acondicionado casi siempre viene de hongos y bacterias creciendo en el evaporador, donde se condensa agua todo el tiempo — algo especialmente común en el clima húmedo de Honduras. Olor a humedad o moho = evaporador sucio; olor a vinagre = colonias bacterianas avanzadas; olor a quemado = posible falla eléctrica; olor dulce o químico = posible fuga de refrigerante. El aromatizante no lo arregla: solo la limpieza del evaporador y el cambio del filtro de cabina eliminan el olor de raíz.
+        </p>
+      </div>
+
+      <figure class="rounded-[2rem] overflow-hidden mb-12">
+        <img src="../assets/B1_MANTENIMIENTO.png"
+             alt="Limpieza de evaporador de aire acondicionado automotriz para eliminar mal olor en San Pedro Sula"
+             class="w-full h-auto object-cover" width="800" height="450">
+      </figure>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4">Qué está pasando dentro de tu tablero</h2>
+        <div class="space-y-4 text-slate-700 text-lg leading-relaxed">
+          <p>El evaporador es un pequeño radiador escondido detrás del tablero por donde pasa todo el aire que respirás dentro del vehículo. Al enfriar el aire, condensa humedad — funciona literalmente mojado todo el día. Sumale el calor de San Pedro Sula, el polvo que atrapa, y tenés el ambiente perfecto para que crezcan hongos, moho y bacterias. Cada vez que encendés el aire, ese cultivo te sopla directo a la cara.</p>
+        </div>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4">Qué significa cada olor</h2>
+        <div class="space-y-6">
+          <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+            <h3 class="font-black text-slate-900 uppercase text-lg mb-2">Humedad, tierra mojada o moho</h3>
+            <p class="text-slate-700 leading-relaxed">El clásico. Hongos en el evaporador y/o filtro de cabina saturado. Se nota más al encender el aire después de que el carro estuvo estacionado.</p>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+            <h3 class="font-black text-slate-900 uppercase text-lg mb-2">Vinagre o agrio</h3>
+            <p class="text-slate-700 leading-relaxed">Colonias bacterianas más avanzadas en el evaporador o en el drenaje de condensado obstruido. Requiere limpieza profunda, no solo cambio de filtro.</p>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+            <h3 class="font-black text-slate-900 uppercase text-lg mb-2">Quemado o plástico caliente</h3>
+            <p class="text-slate-700 leading-relaxed">No es olor de suciedad: puede ser el clutch del compresor patinando, un motor de ventilador forzado o un cable recalentado. Llevalo al taller pronto.</p>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+            <h3 class="font-black text-slate-900 uppercase text-lg mb-2">Dulce o químico</h3>
+            <p class="text-slate-700 leading-relaxed">Puede indicar fuga de refrigerante o de coolant del motor entrando al habitáculo. Amerita diagnóstico con detector de fugas.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4">Cómo se elimina de raíz</h2>
+        <div class="space-y-4 text-slate-700 text-lg leading-relaxed">
+          <p>La solución profesional tiene tres pasos: limpieza y desinfección del evaporador con espuma o nebulización especializada que mata hongos y bacterias donde viven; cambio del filtro de cabina, que a esas alturas está saturado de esporas; y verificación del drenaje de condensado, para que el agua no se acumule y el problema no regrese. Todo el proceso toma unas horas y el resultado se nota al instante: aire limpio, sin olor.</p>
+          <p>¿Y el aromatizante? Enmascara el olor unos días mientras los hongos siguen multiplicándose. Es como perfumarse en vez de bañarse.</p>
+        </div>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4">Cómo evitar que vuelva</h2>
+        <ul class="space-y-3 text-slate-700 text-lg leading-relaxed">
+          <li class="flex gap-3"><i class="fas fa-check-circle text-green-400 mt-1.5" aria-hidden="true"></i><span>Apagá el A/C (dejando el ventilador encendido) 2-3 minutos antes de llegar a tu destino: seca el evaporador y no le da agua al moho.</span></li>
+          <li class="flex gap-3"><i class="fas fa-check-circle text-green-400 mt-1.5" aria-hidden="true"></i><span>Cambiá el filtro de cabina al menos una vez al año — en el polvo de SPS, mejor cada 6-8 meses.</span></li>
+          <li class="flex gap-3"><i class="fas fa-check-circle text-green-400 mt-1.5" aria-hidden="true"></i><span>No dejés comida ni bebidas derramadas en el carro: alimentan las bacterias del sistema.</span></li>
+          <li class="flex gap-3"><i class="fas fa-check-circle text-green-400 mt-1.5" aria-hidden="true"></i><span>Hacé un mantenimiento preventivo del sistema una vez al año, junto con la revisión de gas.</span></li>
+        </ul>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-6">Preguntas frecuentes</h2>
+        <div class="space-y-4">
+          <details class="bg-slate-50 rounded-2xl border border-slate-100 p-6 group">
+            <summary class="font-black text-slate-900 uppercase tracking-tight cursor-pointer list-none flex justify-between items-center">
+              ¿Por qué huele a humedad al encender el aire?
+              <i class="fas fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+            </summary>
+            <p class="text-slate-700 leading-relaxed mt-4">Hongos y bacterias creciendo en el evaporador, que trabaja húmedo todo el día. En el clima de Honduras es la causa más común de mal olor. Se elimina con limpieza y desinfección del evaporador.</p>
+          </details>
+          <details class="bg-slate-50 rounded-2xl border border-slate-100 p-6 group">
+            <summary class="font-black text-slate-900 uppercase tracking-tight cursor-pointer list-none flex justify-between items-center">
+              ¿Es peligroso para la salud?
+              <i class="fas fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+            </summary>
+            <p class="text-slate-700 leading-relaxed mt-4">Respirar esporas de moho puede irritar las vías respiratorias y agravar alergias, especialmente en niños. Y si el olor es a quemado o químico, puede indicar una falla que amerita revisión inmediata.</p>
+          </details>
+          <details class="bg-slate-50 rounded-2xl border border-slate-100 p-6 group">
+            <summary class="font-black text-slate-900 uppercase tracking-tight cursor-pointer list-none flex justify-between items-center">
+              ¿El aromatizante lo soluciona?
+              <i class="fas fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+            </summary>
+            <p class="text-slate-700 leading-relaxed mt-4">No. Solo tapa el olor unos días mientras el problema crece. La solución real es la limpieza del evaporador más el cambio del filtro de cabina.</p>
+          </details>
+        </div>
+      </section>
+
+      <div class="bg-slate-900 rounded-[3rem] p-10 md:p-12 text-center text-white">
+        <p class="text-blue-400 font-black text-xs uppercase tracking-[0.2em] mb-3">28 años reparando A/C en San Pedro Sula</p>
+        <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter mb-4">Eliminá el olor de raíz</h2>
+        <p class="text-slate-300 mb-8 max-w-xl mx-auto">Limpieza y desinfección profesional del evaporador. Bo. Las Flores, Ave. Juan Pablo II.</p>
+        <a href="https://api.whatsapp.com/send?phone=50497801461&text=Hola,%20el%20aire%20de%20mi%20carro%20huele%20mal%20y%20quiero%20cotizar%20la%20limpieza%20del%20evaporador.%20Marca/modelo/año:%20____"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-3 bg-green-600 hover:bg-green-500 text-white px-10 py-5 rounded-2xl font-black text-lg shadow-2xl transition-all active:scale-95">
+          <i class="fab fa-whatsapp text-3xl"></i> COTIZAR LIMPIEZA
+        </a>
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="py-20 bg-white border-t border-slate-200 text-center">
+    <p class="text-[10px] font-black uppercase tracking-[0.4em] text-slate-500">
+      © 2026 Aire Móvil del Norte • Honduras <br>
+      <span class="opacity-50 mt-2 block">Desarrollado por H2 Creative</span>
+    </p>
+  </footer>
+
+</body>
+</html>
