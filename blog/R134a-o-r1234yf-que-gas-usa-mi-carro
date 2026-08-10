@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>R134a o R1234yf: ¿qué gas usa el aire acondicionado de mi carro? | Aire Móvil</title>
+  <meta name="description" content="Cómo saber si tu carro usa gas R134a o R1234yf, en qué se diferencian, por qué no se pueden mezclar y qué significa para el costo de la recarga en Honduras.">
+  <link rel="canonical" href="https://www.airemovilhn.com/blog/r134a-o-r1234yf-que-gas-usa-mi-carro.html" />
+
+  <link rel="icon" type="image/png" href="../assets/logo-airemovil.png">
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+  <meta property="og:title" content="R134a o R1234yf: ¿qué gas usa el A/C de tu carro?">
+  <meta property="og:description" content="Cómo identificar el gas de tu vehículo, en qué se diferencian y por qué nunca se deben mezclar.">
+  <meta property="og:image" content="https://www.airemovilhn.com/assets/B6_GAS.png">
+  <meta property="og:url" content="https://www.airemovilhn.com/blog/r134a-o-r1234yf-que-gas-usa-mi-carro.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="es_HN">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "R134a o R1234yf: ¿qué gas usa el aire acondicionado de mi carro?",
+    "description": "Cómo saber qué gas refrigerante usa tu vehículo, las diferencias entre R134a y R1234yf, por qué no se mezclan y qué implica para la recarga.",
+    "image": "https://www.airemovilhn.com/assets/B6_GAS.png",
+    "datePublished": "2026-08-10",
+    "dateModified": "2026-08-10",
+    "inLanguage": "es-HN",
+    "author": { "@type": "Organization", "name": "Aire Móvil del Norte", "url": "https://www.airemovilhn.com/" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Aire Móvil del Norte",
+      "logo": { "@type": "ImageObject", "url": "https://www.airemovilhn.com/assets/logo-airemovil.png" }
+    },
+    "mainEntityOfPage": "https://www.airemovilhn.com/blog/r134a-o-r1234yf-que-gas-usa-mi-carro.html"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cómo sé si mi carro usa gas R134a o R1234yf?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Revisá la etiqueta del sistema de A/C bajo el capó (suele estar en la torre del amortiguador o el radiador): indica el tipo de gas y la cantidad exacta. Como regla general, los vehículos hasta ~2016 usan R134a y la mayoría de modelos 2017 en adelante (especialmente americanos y europeos) usan R1234yf. Las válvulas de servicio también son físicamente distintas para evitar confusiones."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Se puede poner R134a a un carro que usa R1234yf?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Aunque algunos talleres lo hacen con adaptadores para abaratar, mezclar o sustituir gases altera las presiones del sistema, puede dañar el compresor, anula garantías del fabricante y contamina el circuito. Cada sistema está diseñado para su gas específico."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Por qué la recarga de R1234yf es más cara que la de R134a?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El R1234yf es un gas de nueva generación con menor impacto ambiental, cuyo costo por kilo es varias veces mayor que el del R134a, y requiere equipo de servicio específico. Por eso la recarga se cotiza según el vehículo."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.airemovilhn.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Biblioteca del Aire", "item": "https://www.airemovilhn.com/blog/" },
+      { "@type": "ListItem", "position": 3, "name": "R134a o R1234yf: ¿qué gas usa mi carro?" }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bg-white">
+
+  <header>
+    <nav class="fixed top-0 w-full z-[100] bg-white/95 backdrop-blur-xl border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-6 h-16 md:h-20 flex justify-between items-center">
+        <a href="../" aria-label="Volver al inicio de Aire Móvil">
+          <img src="../assets/logo-airemovil.png" alt="Aire Móvil - Taller de A/C Automotriz San Pedro Sula" class="h-10 md:h-12 w-auto">
+        </a>
+        <div class="hidden md:flex gap-8 font-bold text-slate-700 text-xs uppercase tracking-[0.2em]">
+          <a href="../#servicios-ac" class="hover:text-blue-600 transition-colors">Servicios A/C</a>
+          <a href="../#catalogo" class="hover:text-blue-600 transition-colors">Catálogo</a>
+          <a href="./" class="text-blue-600">Biblioteca</a>
+          <a href="../sobre-nosotros.html" class="hover:text-blue-600 transition-colors">Nosotros</a>
+          <a href="../#contacto" class="hover:text-blue-600 transition-colors">Ubicación</a>
+        </div>
+        <a href="tel:+50497801461" class="bg-blue-600 text-white px-5 py-2.5 rounded-full font-black text-xs uppercase tracking-widest hover:bg-slate-900 transition-all shadow-lg" aria-label="Llamar a recepción de Aire Móvil">
+          <i class="fas fa-phone-alt mr-2"></i> +50497801461
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-16 md:pt-20">
+
+    <div class="max-w-3xl mx-auto px-6 pt-8">
+      <nav aria-label="Migas de pan" class="text-xs font-bold uppercase tracking-widest text-slate-400">
+        <a href="../" class="hover:text-blue-600">Inicio</a>
+        <span class="mx-2">/</span>
+        <a href="./" class="hover:text-blue-600">Biblioteca del Aire</a>
+        <span class="mx-2">/</span>
+        <span class="text-slate-600">R134a vs R1234yf</span>
+      </nav>
+    </div>
+
+    <article class="max-w-3xl mx-auto px-6 py-10">
+
+      <div class="flex items-center gap-3 mb-6">
+        <span class="bg-blue-50 text-blue-600 text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">Aprender</span>
+        <time datetime="2026-08-10" class="text-slate-400 text-xs font-bold uppercase tracking-wider">10 Ago 2026</time>
+        <span class="text-slate-400 text-xs font-bold uppercase tracking-wider">· Lectura de 5 min</span>
+      </div>
+
+      <h1 class="text-3xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter leading-tight mb-6">
+        R134a o R1234yf: ¿qué <span class="text-blue-600">gas</span> usa mi carro?
+      </h1>
+
+      <div class="bg-blue-50 border-l-4 border-blue-600 rounded-r-2xl p-6 mb-10">
+        <p class="text-slate-800 text-lg leading-relaxed font-medium">
+          <strong>Respuesta rápida:</strong> revisá la etiqueta del A/C bajo el capó — indica el gas y la cantidad exacta. Como regla general: vehículos hasta ~2016 usan <strong>R134a</strong>; la mayoría de modelos 2017 en adelante usan <strong>R1234yf</strong>, un gas más ecológico pero considerablemente más caro. Nunca se deben mezclar ni sustituir uno por otro: cada sistema está diseñado para su gas, y las válvulas de servicio son físicamente distintas justamente para evitarlo.
+        </p>
+      </div>
+
+      <figure class="rounded-[2rem] overflow-hidden mb-12">
+        <img src="../assets/B6_GAS.png"
+             alt="Recarga de gas refrigerante R134a y R1234yf para aire acondicionado automotriz en San Pedro Sula"
+             class="w-full h-auto object-cover" width="800" height="450">
+      </figure>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4">Qué es el gas refrigerante</h2>
+        <div class="space-y-4 text-slate-700 text-lg leading-relaxed">
+          <p>El gas refrigerante es la sangre del sistema de A/C: circula en un circuito cerrado absorbiendo el calor del habitáculo y liberándolo afuera. Sin la cantidad y el tipo correcto de gas, el sistema simplemente no enfría. Durante décadas el estándar mundial fue el R134a; desde mediados de la década de 2010, las regulaciones ambientales impulsaron la transición al R1234yf, que tiene un impacto de calentamiento global cientos de veces menor.</p>
+        </div>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-6">R134a vs R1234yf: las diferencias</h2>
+        <div class="overflow-x-auto rounded-2xl border border-slate-200">
+          <table class="w-full text-left">
+            <thead class="bg-slate-900 text-white text-xs uppercase tracking-widest">
+              <tr>
+                <th class="px-6 py-4 font-black">Característica</th>
+                <th class="px-6 py-4 font-black">R134a</th>
+                <th class="px-6 py-4 font-black">R1234yf</th>
+              </tr>
+            </thead>
+            <tbody class="text-slate-700 divide-y divide-slate-100">
+              <tr class="bg-white">
+                <td class="px-6 py-4 font-bold">Vehículos típicos</td>
+                <td class="px-6 py-4">Hasta ~2016</td>
+                <td class="px-6 py-4">2017 en adelante</td>
+              </tr>
+              <tr class="bg-slate-50">
+                <td class="px-6 py-4 font-bold">Costo del gas</td>
+                <td class="px-6 py-4">Accesible</td>
+                <td class="px-6 py-4">Varias veces más caro</td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-6 py-4 font-bold">Impacto ambiental</td>
+                <td class="px-6 py-4">Alto (GWP ~1,430)</td>
+                <td class="px-6 py-4">Muy bajo (GWP &lt;1)</td>
+              </tr>
+              <tr class="bg-slate-50">
+                <td class="px-6 py-4 font-bold">Válvulas de servicio</td>
+                <td class="px-6 py-4">Estándar</td>
+                <td class="px-6 py-4">Diferentes (incompatibles)</td>
+              </tr>
+              <tr class="bg-white">
+                <td class="px-6 py-4 font-bold">Equipo de recarga</td>
+                <td class="px-6 py-4">Convencional</td>
+                <td class="px-6 py-4">Máquina específica</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4">Cómo identificar el gas de tu vehículo</h2>
+        <div class="space-y-4 text-slate-700 text-lg leading-relaxed">
+          <p>Tres formas, de la más fácil a la más segura: primero, la <strong>etiqueta bajo el capó</strong> — buscá una calcomanía en la torre del amortiguador, el radiador o la parte interior del capó que dice "R134a" o "R-1234yf" junto a la cantidad en gramos. Segundo, el <strong>manual del propietario</strong>, en la sección de especificaciones. Tercero, en el taller: las válvulas de servicio son físicamente distintas entre ambos gases, así que un técnico lo identifica al instante — y de paso verifica que nadie le haya puesto el gas equivocado antes.</p>
+          <p>Ese último punto no es paranoia: en Honduras circulan muchos vehículos importados usados de USA, y algunos llegan con "adaptaciones" hechas para ahorrar en la recarga. Si comprás un carro 2017+ importado, vale la pena verificar qué gas tiene realmente en el sistema.</p>
+        </div>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4">Por qué nunca se mezclan</h2>
+        <div class="space-y-4 text-slate-700 text-lg leading-relaxed">
+          <p>Cada gas trabaja a presiones distintas y con aceites lubricantes distintos. Poner R134a en un sistema diseñado para R1234yf (una práctica que algunos talleres ofrecen "para ahorrar") altera las presiones de trabajo, degrada el lubricante del compresor, contamina el circuito y anula cualquier garantía del fabricante. El ahorro de hoy es el compresor dañado de mañana. En Aire Móvil trabajamos ambos gases con el equipo específico de cada uno — <a href="../recarga-r134a-1234yf-san-pedro-sula.html" class="text-blue-600 font-bold border-b-2 border-blue-100 hover:border-blue-600">conocé el servicio de recarga R134a y R1234yf</a>.</p>
+          <p>¿Querés saber cuánto cuesta cada recarga? Mirá nuestra <a href="./cuanto-cuesta-reparar-aire-acondicionado-carro-honduras.html" class="text-blue-600 font-bold border-b-2 border-blue-100 hover:border-blue-600">guía de precios de reparación de A/C en Honduras</a>.</p>
+        </div>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4">Errores comunes</h2>
+        <ul class="space-y-3 text-slate-700 text-lg leading-relaxed">
+          <li class="flex gap-3"><i class="fas fa-times-circle text-red-500 mt-1.5" aria-hidden="true"></i><span>Aceptar "adaptar" un sistema R1234yf a R134a para abaratar la recarga: daña el compresor y anula garantías.</span></li>
+          <li class="flex gap-3"><i class="fas fa-times-circle text-red-500 mt-1.5" aria-hidden="true"></i><span>Recargar "al ojo" sin báscula: el sistema necesita la cantidad exacta en gramos — de más o de menos, enfría mal.</span></li>
+          <li class="flex gap-3"><i class="fas fa-times-circle text-red-500 mt-1.5" aria-hidden="true"></i><span>Comprar un importado 2017+ sin verificar qué gas tiene realmente en el circuito.</span></li>
+        </ul>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-6">Preguntas frecuentes</h2>
+        <div class="space-y-4">
+          <details class="bg-slate-50 rounded-2xl border border-slate-100 p-6 group">
+            <summary class="font-black text-slate-900 uppercase tracking-tight cursor-pointer list-none flex justify-between items-center">
+              ¿Cómo sé qué gas usa mi carro?
+              <i class="fas fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+            </summary>
+            <p class="text-slate-700 leading-relaxed mt-4">Revisá la etiqueta del A/C bajo el capó: indica el gas y la cantidad exacta. Regla general: hasta ~2016 es R134a; 2017 en adelante, mayormente R1234yf.</p>
+          </details>
+          <details class="bg-slate-50 rounded-2xl border border-slate-100 p-6 group">
+            <summary class="font-black text-slate-900 uppercase tracking-tight cursor-pointer list-none flex justify-between items-center">
+              ¿Puedo ponerle R134a a un sistema R1234yf?
+              <i class="fas fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+            </summary>
+            <p class="text-slate-700 leading-relaxed mt-4">No. Altera las presiones, degrada el lubricante del compresor y anula garantías. Cada sistema está diseñado para su gas específico.</p>
+          </details>
+          <details class="bg-slate-50 rounded-2xl border border-slate-100 p-6 group">
+            <summary class="font-black text-slate-900 uppercase tracking-tight cursor-pointer list-none flex justify-between items-center">
+              ¿Por qué el R1234yf es más caro?
+              <i class="fas fa-chevron-down text-blue-600 group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+            </summary>
+            <p class="text-slate-700 leading-relaxed mt-4">Es un gas de nueva generación con impacto ambiental mínimo; su costo por kilo es varias veces mayor y requiere equipo de servicio específico. Por eso se cotiza según el vehículo.</p>
+          </details>
+        </div>
+      </section>
+
+      <div class="bg-slate-900 rounded-[3rem] p-10 md:p-12 text-center text-white">
+        <p class="text-blue-400 font-black text-xs uppercase tracking-[0.2em] mb-3">Trabajamos ambos gases con equipo específico</p>
+        <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter mb-4">Recarga con la cantidad exacta de fábrica</h2>
+        <p class="text-slate-300 mb-8 max-w-xl mx-auto">R134a y R1234yf con vacío profundo y báscula de precisión. Bo. Las Flores, Ave. Juan Pablo II, San Pedro Sula.</p>
+        <a href="https://api.whatsapp.com/send?phone=50497801461&text=Hola,%20quiero%20cotizar%20recarga%20de%20gas.%20Marca/modelo/año:%20____"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-3 bg-green-600 hover:bg-green-500 text-white px-10 py-5 rounded-2xl font-black text-lg shadow-2xl transition-all active:scale-95">
+          <i class="fab fa-whatsapp text-3xl"></i> COTIZAR RECARGA
+        </a>
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="py-20 bg-white border-t border-slate-200 text-center">
+    <p class="text-[10px] font-black uppercase tracking-[0.4em] text-slate-500">
+      © 2026 Aire Móvil del Norte • Honduras <br>
+      <span class="opacity-50 mt-2 block">Desarrollado por H2 Creative</span>
+    </p>
+  </footer>
+
+</body>
+</html>
